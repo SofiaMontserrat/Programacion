@@ -1,0 +1,52 @@
+#body {
+  background-color: rgb(201, 218, 255);
+}
+
+/* Estilo para animaciones de agregado/eliminado */
+.agregado {
+  background-color: #ff0000 !important; /* Verde claro */
+  color: #ffc800 !important;
+  animation: fade 1s ease-in-out;
+}
+
+.eliminado {
+  background-color: #f8d7da !important; /* Rojo claro */
+  color: #00fff7 !important;
+  animation: fade 1s ease-in-out;
+}
+
+.btn {
+  color:rgb(255, 255, 255);
+  background-color: rgb(0, 86, 207);
+  border:rgb(98, 0, 255);
+}
+
+.btn:hover {
+  background-color: rgb(180, 211, 255);
+}
+
+.footer {
+    background:rgb(0, 86, 207);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.footer address {
+    font-style: normal;
+    margin-top: 1rem;
+}
+
+.footer a {
+    color: rgb(255, 204, 0);
+    text-decoration: none;
+}
+
+.social {
+  color:white;
+}
+
+@keyframes fade {
+  from { opacity: 0.3; }
+  to { opacity: 1; }
+}
